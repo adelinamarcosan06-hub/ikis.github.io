@@ -1,14 +1,16 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-image:url('poza.fundal.jpg');
+    background-image:url('imprimanta.jpg');
     background-size: cover;
-    color: #4b91ee;
+   background-repeat: no-repeat;
+   background-position: center ;
+    color: #64a2dc;
     
 }
 
 header {
-    background: #35424a;
+    background: #57a6d7;
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
@@ -19,7 +21,7 @@ nav {
 }
 
 nav a {
-    color: #161010;
+    color: #d4ca3b;
     text-size-adjust: 40px ;
     text-decoration: none;
     padding: 10px 15px;
@@ -36,13 +38,14 @@ nav a:hover {
 }
 
 footer {
-    background: #35424a;
-    color: #ffffff;
+    background: #61b3e7;
+    color: #a1dcf0;
     text-align: center;
     padding: 10px 0;
     position: relative;
     bottom: 0;
     width: 100%;
+    
 }
 
 @media (max-width: 600px) {
