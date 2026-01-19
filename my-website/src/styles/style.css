@@ -1,8 +1,10 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-image:url('poza.fundal.jpg');
+    background-size: cover;
+    color: #4b91ee;
+    
 }
 
 header {
@@ -17,7 +19,8 @@ nav {
 }
 
 nav a {
-    color: #f10808;
+    color: #161010;
+    text-size-adjust: 40px ;
     text-decoration: none;
     padding: 10px 15px;
 }
